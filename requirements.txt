@@ -1,0 +1,16 @@
+arrow==1.2.3
+asgiref==3.7.2
+distlib==0.3.6
+Django==4.2.4
+django-cors-headers==4.2.0
+djangorestframework==3.14.0
+filelock==3.8.0
+phonenumbers==8.13.27
+platformdirs==2.5.4
+python-dateutil==2.8.2
+pytz==2022.6
+rest-framework-simplejwt==0.0.2
+six==1.16.0
+sqlparse==0.4.3
+tzdata==2022.6
+virtualenv==20.16.7
