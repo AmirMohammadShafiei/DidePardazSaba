@@ -47,3 +47,16 @@
 | Apple    | USA       | iPhone 12 Pro  | 1100  | Silver| 6.1 | China | + |
 | Xiaomi   | China     | Mi 11 Pro      | 850   | White | 6.5 | China | + |
 | Xiaomi   | China     | Mi 11X         | 800   | Blue  | 6.5 | China | + |
+
+
+----------------------------------------------------------------------------------------------------------------------
+توضیحات اجرا :
+ابتدا venv را فعال کنید :
+.\venv\Scripts\activate
+
+با دستور زیر پروژه را اجرا کیند :
+py manage.py runserver
+
+وارد url زیر شوید:
+http://127.0.0.1:8000/phone/
+
