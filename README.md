@@ -56,6 +56,10 @@
 
 .\venv\Scripts\activate
 
+با دستور زیر پکیج های مورد نیاز را دانلود کنید : 
+
+pip install -r requirements. txt
+
 با دستور زیر پروژه را اجرا کیند :
 
 py manage.py runserver
