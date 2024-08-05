@@ -54,12 +54,13 @@
 
 ابتدا venv را فعال کنید :
 
-activate/Scripts/venv/.
+.\venv\Scripts\activate
 
 با دستور زیر پروژه را اجرا کیند :
 
 py manage.py runserver
 
 وارد url زیر شوید:
+
 http://127.0.0.1:8000/phone/
 
