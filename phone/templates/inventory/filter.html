@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phones with Matching Nationality</title>
+</head>
+<body>
+    <h1>Phones with Matching Brand Nationality and Manufacturing Country</h1>
+    <ul>
+        {% for phone in phones %}
+            <li>
+                <strong>{{ phone.brand.name }}</strong> - {{ phone.model }}<br>
+                Price: {{ phone.price }}<br>
+                Color: {{ phone.color }}<br>
+                Screen Size: {{ phone.screen_size }}<br>
+                Manufacturing Country: {{ phone.manufacturing_country }}<br>
+            </li>
+        {% empty %}
+            <li>No phones found where the nationality matches the manufacturing country.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
